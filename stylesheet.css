@@ -1,0 +1,216 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-color: rgba(34, 49, 52, 0.5);
+    background: url(src/hero.jpg) no-repeat center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    margin-bottom: 3px;
+  }
+  
+  .btn-wrapper {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .started {
+    background-color: cadetblue;
+    margin-top: 50px;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position :fixed;
+    top: 0;
+    z-index: 10;
+  }
+
+  .logo {
+    height: 65px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+    margin-right: -25px;
+  }
+  
+  .header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+  }
+  
+  .header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  .header-right .login {
+    background-color: cadetblue;
+  }
+  
+  .header-right .login:hover {
+    background-color: rgb(174, 249, 252, 0.3);
+  }
+
+  .menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+  }
+
+  .destination-wrapper {
+    position: relative;
+  }
+
+  .destination-image {
+    width: 250px;
+    height: 332px;
+    margin: 10px 10px;
+}
+
+  button {
+      position: relative;
+      padding: 12px 24px;
+      color: white;
+      background-color: tomato;
+      border: none;
+      left: 65px;
+      margin-top: 210px;
+  }
+
+  .destinations {
+      display: flex;
+  }
+
+  .container {
+      width: 1170px;
+      padding: 0 15px;
+      margin: 10 auto;
+  }
+
+  .destination-image p {
+      color: white;
+      text-shadow: 2px 2px 4px #000000;
+      text-align: center;
+      position: relative;
+      padding-top: 28px;
+  }
+  .heading {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
+  }
+  
+  .heading h2 {
+    font-weight: normal;
+  }
+  
+  .heading h3 {
+    font-weight: normal;
+  }
+  
+  .text-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
+  }
+  
+  .message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: cadetblue;
+    cursor: pointer;
+    box-shadow: 0 7px rgb(63, 106, 109);
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  footer img {
+    width: 125px;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
+  
+  footer {
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+
+  .container img {
+    height: 65px;
+    width: auto;
+  }
