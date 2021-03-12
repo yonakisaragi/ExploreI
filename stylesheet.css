@@ -119,41 +119,52 @@
   }
 
   .destination-wrapper {
-    position: relative;
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+    margin-bottom: 100px;
+    height: 577px;
   }
 
   .destination-image {
-    width: 250px;
+    position: relative;
     height: 332px;
     margin: 10px 10px;
+    background-size: cover;
+    
 }
 
   button {
       position: relative;
       padding: 12px 24px;
       color: white;
+      display: inline-block;
+      opacity: 0.8;
+      border-radius: 4px;
+      text-align: center;
       background-color: tomato;
       border: none;
-      left: 65px;
-      margin-top: 210px;
+      top: 80%;
   }
 
-  .destinations {
-      display: flex;
+  button:hover {
+    opacity: 1;
   }
 
-  .container {
-      width: 1170px;
-      padding: 0 15px;
-      margin: 10 auto;
+ 
+
+  .destination {
+    float: left;
+    width: 25%;
   }
 
   .destination-image p {
       color: white;
       text-shadow: 2px 2px 4px #000000;
-      text-align: center;
-      position: relative;
-      padding-top: 28px;
+      position: absolute;
+      width: 100%;
   }
   .heading {
     padding-top: 80px;
@@ -167,14 +178,6 @@
   
   .heading h3 {
     font-weight: normal;
-  }
-  
-  .text-contents {
-    width: 80%;
-    display: inline-block;
-    margin-top: 15px;
-    font-size: 15px;
-    color: #b3aeb5;
   }
   
   .message-wrapper {

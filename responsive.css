@@ -35,7 +35,9 @@
       width: 100%;
     }
     
-    
+    button {
+      width: 80%;
+    }
     .top-wrapper {
       text-align: left;
     }
